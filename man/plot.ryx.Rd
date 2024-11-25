@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot.ryx.R
 \name{plot.ryx}
 \alias{plot.ryx}
-\title{Correlation Table}
+\title{Correlation Table Graph}
 \usage{
 \method{plot}{ryx}(x, ...)
 }
@@ -10,11 +10,9 @@
 \item{x}{object inherited from ryx function}
 
 \item{...}{(optional), any additional parameters}
-
-\item{data}{a data frame}
 }
 \value{
-method used, dataset used, variables used for outliers detected, indices of any detected outliers, scores for the outliers, and values for optional parameters
+graphical representation of correlation
 }
 \description{
 Creates a correlation table using numeric variables.

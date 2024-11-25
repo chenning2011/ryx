@@ -30,4 +30,4 @@ You can install the development version of ryx from [GitHub](https://github.com/
 remotes::install_github("https://github.com/chenning2011/ryx")
 ```   
 
-To learn more about how to use ryx, see the Documentation and Getting Started pages on this site. 
+To learn more about how to use ryx, see the [Documentation](https://chenning2011.github.io/ryx/reference/index.html) and [Getting Started](https://chenning2011.github.io/ryx/articles/ryx.html) pages on this site. 

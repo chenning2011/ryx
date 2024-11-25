@@ -2,14 +2,12 @@
 % Please edit documentation in R/summary.ryx.R
 \name{summary.ryx}
 \alias{summary.ryx}
-\title{Correlation Table}
+\title{Correlation Table Summary}
 \usage{
-\method{summary}{ryx}(x, ..)
+\method{summary}{ryx}(x, ...)
 }
 \arguments{
 \item{x}{object inherited from ryx function}
-
-\item{data}{a data frame}
 
 \item{...}{(optional), any additional parameters}
 }

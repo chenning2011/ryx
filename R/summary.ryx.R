@@ -1,7 +1,6 @@
-#'@title Correlation Table
+#'@title Correlation Table Summary
 #'@description Creates a correlation table using numeric variables.
 #'@export
-#'@param data a data frame
 #'@param x object inherited from ryx function
 #'@param ... (optional), any additional parameters
 #'@returns summary information for ryx object
@@ -15,7 +14,7 @@
 #'summary(x)
 
 
-summary.ryx <- function(x,..){
+summary.ryx <- function(x,...){
   #checking correct object type
     if(!inherits(x, "ryx")){
       stop("This functon requires an object created by ryx")

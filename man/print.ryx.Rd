@@ -2,7 +2,7 @@
 % Please edit documentation in R/print.ryx.R
 \name{print.ryx}
 \alias{print.ryx}
-\title{Correlation Table}
+\title{Correlation Table Printed}
 \usage{
 \method{print}{ryx}(x, ...)
 }
@@ -10,8 +10,6 @@
 \item{x}{object inherited from ryx function}
 
 \item{...}{(optional), any additional parameters}
-
-\item{data}{a data frame}
 }
 \value{
 dataframe with correlations of y variable with all x-variables, p-value, and level of significance for each x variable.

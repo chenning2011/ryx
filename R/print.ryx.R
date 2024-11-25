@@ -1,7 +1,6 @@
-#'@title Correlation Table
+#'@title Correlation Table Printed
 #'@description Creates a correlation table using numeric variables.
 #'@export
-#'@param data a data frame
 #'@param x object inherited from ryx function
 #'@param ... (optional), any additional parameters
 #'@returns dataframe with correlations of y variable with all x-variables, p-value, and level of significance for each x variable.

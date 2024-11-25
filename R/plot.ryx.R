@@ -1,10 +1,9 @@
-#'@title Correlation Table
+#'@title Correlation Table Graph
 #'@description Creates a correlation table using numeric variables.
 #'@export
-#'@param data a data frame
 #'@param x object inherited from ryx function
 #'@param ... (optional), any additional parameters
-#'@returns method used, dataset used, variables used for outliers detected, indices of any detected outliers, scores for the outliers, and values for optional parameters
+#'@returns graphical representation of correlation
 #'@import ggplot2
 #'@import dplyr
 #'@import MASS
