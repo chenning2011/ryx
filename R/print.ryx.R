@@ -2,8 +2,8 @@
 #'@description Creates a correlation table using numeric variables.
 #'@export
 #'@param data a data frame
-#'@param y a numeric variable
-#'@param x string, a list of numeric variables. Defaults to all variables in the dataset provided.
+#'@param x object inherited from ryx function
+#'@param ... (optional), any additional parameters
 #'@returns dataframe with correlations of y variable with all x-variables, p-value, and level of significance for each x variable.
 #'@import MASS
 #'

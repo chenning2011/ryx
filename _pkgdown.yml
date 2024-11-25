@@ -10,6 +10,7 @@ reference:
       - '`ryx`'
       - '`print.ryx`'
       - '`summary.ryx`'
+      - '`plot.ryx`'
 navbar:
   right:
     - icon: fa-solid fa-chalkboard

@@ -2,9 +2,9 @@
 #'@description Creates a correlation table using numeric variables.
 #'@export
 #'@param data a data frame
-#'@param y a numeric variable
-#'@param x string, a list of numeric variables. Defaults to all variables in the dataset provided.
-#'@returns method used, dataset used, variables used for outliers detected, indices of any detected outliers, scores for the outliers, and values for optional parameters
+#'@param x object inherited from ryx function
+#'@param ... (optional), any additional parameters
+#'@returns summary information for ryx object
 #'@import MASS
 #'
 #'@examples
@@ -16,6 +16,11 @@
 
 
 summary.ryx <- function(x,..){
+  #checking correct object type
+    if(!inherits(x, "ryx")){
+      stop("This functon requires an object created by ryx")
+    }
+
   #first line in summary
   cat("Correlating", x$y, "with", x$x, "\n")
 

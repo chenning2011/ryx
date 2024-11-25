@@ -7,14 +7,14 @@
 \method{summary}{ryx}(x, ..)
 }
 \arguments{
-\item{x}{string, a list of numeric variables. Defaults to all variables in the dataset provided.}
+\item{x}{object inherited from ryx function}
 
 \item{data}{a data frame}
 
-\item{y}{a numeric variable}
+\item{...}{(optional), any additional parameters}
 }
 \value{
-method used, dataset used, variables used for outliers detected, indices of any detected outliers, scores for the outliers, and values for optional parameters
+summary information for ryx object
 }
 \description{
 Creates a correlation table using numeric variables.
