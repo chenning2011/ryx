@@ -10,8 +10,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
     MASS
-URL: https://chenning2011.github.io/ryx/
 Suggests: 
     knitr,
     rmarkdown
-VignetteBuilder: knitr
+URL: https://github.com/chenning2011/ryx
+BugReports: https://github.com/chenning2011/ryx/issues
