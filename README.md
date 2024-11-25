@@ -1,4 +1,6 @@
 
+<img src="digitization-6605643_1280.jpg" width = "500" alt = "blurred ones and zeros">
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # ryx

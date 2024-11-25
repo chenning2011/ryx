@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+```{r setup, warning = F, message = F}
 library(ryx)
 ```
 
@@ -48,7 +48,7 @@ summary(x)
 
 Additionally, the function provides a plot function, which can be used to visualize these correlations. Here is an example of the output from the plot function. 
 
-```{r}
+```{r, warning = F, message = F}
 plot(x)
 ```
 
