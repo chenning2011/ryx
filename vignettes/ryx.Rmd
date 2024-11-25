@@ -1,0 +1,51 @@
+---
+title: "ryx"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ryx}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Getting Started
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ryx)
+```
+
+ryx has one helpful function, which has three useful methods, that can be used to understand the correlations between data. This vignette will walk you through how to use the function and its methods. 
+
+```{r}
+library(MASS)
+x <- ryx(Boston, y = "medv")
+x
+```
+
+Here is an example of how output from the ryx function is printed. This output provides you with information on each variable used, the correlation between that variable and the y variable you specified, the p-value of that correlation, and the significance level, shown with stars. The scale for the stars is *** < 0.001, ** < 0.01, and * < 0.05. Variables that are not statistically significant will have no stars. 
+
+If no x variables are specified, the function will provide output for all numeric variables in the provided dataset. Here is an example of how to specify x variables within the function. 
+
+```{r}
+x <- ryx(Boston, y = "medv", x = c("black", "zn", "age", "crim"))
+x
+```
+
+Above is the modified correlation table, which shows the correlations between medv and the four specified x variables. 
+
+Beyond the printed output, ryx also comes with a summary function, which provides users with basic information on how many variables were used, how many of them are significant, which variables were used, the median absolute correlation, and the range of correlation values. Here is an example of the summary function. 
+
+```{r}
+x <- ryx(Boston, y = "medv")
+summary(x)
+```
+
+Additionally, the function provides a plot function, which can be used to visualize these correlations. Here is an example of the output from the plot function. 
+
+

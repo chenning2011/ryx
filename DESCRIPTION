@@ -11,3 +11,7 @@ RoxygenNote: 7.3.2
 Imports: 
     MASS
 URL: https://chenning2011.github.io/ryx/
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

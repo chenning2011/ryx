@@ -14,7 +14,6 @@
 #'x <- ryx(iris, y = "Sepal.Length")
 #'x
 
-
 print.ryx <- function(x,...){
   if(!inherits(x, "ryx")){
     stop("This functon requires an object created by ryx")

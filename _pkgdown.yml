@@ -1,5 +1,24 @@
+title: ryx
 url: https://chenning2011.github.io/ryx/
 template:
+  params:
   bootstrap: 5
   bootswatch: simplex
+reference:
+  - title: Main Functions
+    contents:
+      - '`ryx`'
+      - '`print.ryx`'
+      - '`summary.ryx`'
+navbar:
+  right:
+    - icon: fa-solid fa-chalkboard
+      text: "Getting Started"
+      href: articles/ryx.html
+    - icon: fa-file-code-o
+      text: "Documentation"
+      href: reference/index.html
+  left:
+    - icon: fa-home
+      href: index.html
 
